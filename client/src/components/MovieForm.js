@@ -29,6 +29,8 @@ function MovieForm() {
       });
   }
 
+  
+
   function handleChange(e) {
     const value =
       e.target.type === "checkbox" ? e.target.checked : e.target.value;
